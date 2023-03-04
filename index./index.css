@@ -1,0 +1,134 @@
+/* Basic styles for the landing page */
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
+.card {
+  background-color: #666;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
+input,
+button {
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #999;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+#hobbies h2,
+#Personal Interest h2,
+#contact h2 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
+#hobbies .card h3,
+#Personal Interest .card h3 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 30px;
+}
+
+#hobbies .card p,
+#Personal Interest .card p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#contact {
+  background-color: #999;
+  padding: 40px 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#contact label {
+  font-size: 30px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"] {
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+
+#contact button[type="submit"] {
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#contact button[type="submit"]:hover {
+  background-color: #555;
+}
