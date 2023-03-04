@@ -3,67 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Zoey Naizer - Personal Landing Page</title>
-  <style>
-    /* Basic styles for the landing page */
-    body {
-      background-color: black;
-      color: white;
-      font-family: Arial, sans-serif;
-    }
-    header {
-      text-align: center;
-      padding: 20px;
-    }
-    h1 {
-      font-size: 48px;
-    }
-    h2 {
-      font-size: 36px;
-    }
-    .card {
-      background-color: #333;
-      color: white;
-      padding: 20px;
-      margin: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
-      margin-bottom: 20px;
-      border-radius: 10px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-    label {
-      margin-bottom: 10px;
-      font-size: 24px;
-    }
-    input, button {
-      font-size: 24px;
-      padding: 10px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      border: none;
-    }
-    button {
-      background-color: #333;
-      color: white;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    button:hover {
-      background-color: #555;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="card">
@@ -72,7 +12,6 @@
   <header>
     <h1>Zoey Naizer</h1>
   </header>
-<img class="featured-img" src="IMG_5100.jpg" alt="Zoey">
   <div id="hobbies">
     <h2>Hobbies</h2>
     <div class="card">
@@ -89,33 +28,33 @@
     </div>
   </div>
 
-  <div id="Personal Interest">
+  <div id="personal-interest">
     <h2>Experience</h2>
     <div class="card">
       <h3>Trans Rights</h3>
-  <p>I believe that everyone deserves to be treated with respect and dignity, regardless of their gender identity.</p>
-</div>
-<div class="card">
-  <h3>Music</h3>
-  <p>Listening to music is one of my favorite ways to relax and unwind. I enjoy a wide range of genres, from classical to rock to electronic.</p>
-</div>
-<div class="card">
-  <h3>Travel</h3>
-  <p>Exploring new places and cultures is one of the most enriching experiences in life. I love to travel whenever I get the chance, and discover new sights, sounds, and flavors.</p>
-</div>
+      <p>I believe that everyone deserves to be treated with respect and dignity, regardless of their gender identity.</p>
+    </div>
+    <div class="card">
+      <h3>Black Lives Matter</h3>
+      <p>I strongly believe in the movement for Black Lives Matter and support the ongoing fight for racial justice and equality. As a society, we need to confront and dismantle systemic racism in all its forms.</p>
+    </div>
+    <div class="card">
+      <h3>Women's Rights</h3>
+      <p>I am passionate about advocating for women's rights and gender equality.</p>
+    </div>
+  </div>
+
   <div id="contact">
     <h2>Contact Me</h2>
     <form action="#" method="post">
-      <label for="Zoey">Zoey</label>
-      <input type="text" id="Zoey" name="Zoey" required>
-        <label for="Naizer">Naizer</label>
-  <input type="text" id="Naizer" name="Naizer" required>
-
-  <label for="email">Email</label>
-  <input type="email" id="email" name="zoeynaizer@gmail.com" required>
-
-  <button type="submit">Send Message</button>
-</form>
+      <label for="firstname">First Name</label>
+      <input type="text" id="firstname" name="firstname" value="Zoey" required>
+      <label for="lastname">Last Name</label>
+      <input type="text" id="lastname" name="lastname" value="Naizer" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" value="Zoeynaizer@gmail.com" required>
+      <button type="submit">Send Message</button>
+    </form>
   </div>
 </body>
 </html>
